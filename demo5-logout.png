@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://127.0.0.1:5000/login -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Task Manager</title>
+    <link href="./demo5-logout_files/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./demo5-logout_files/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            
+                <a href="http://127.0.0.1:5000/login" class="nav-link">Login</a>
+                <a href="http://127.0.0.1:5000/register" class="nav-link">Register</a>
+            
+        </div>
+    </nav>
+
+    <div class="container">
+        
+            
+                
+                    <div class="alert alert-error">
+                        You have been logged out.
+                    </div>
+                
+            
+        
+
+        
+<div class="auth-container">
+    <div class="auth-card">
+        <h1><i class="fas fa-sign-in-alt"></i> Login</h1>
+        <form method="POST" class="auth-form">
+            <div class="form-group">
+                <label><i class="fas fa-user"></i> Username</label>
+                <input type="text" name="username" required="">
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-lock"></i> Password</label>
+                <input type="password" name="password" required="">
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-sign-in-alt"></i> Login
+            </button>
+        </form>
+        <p class="auth-link">
+            Don't have an account? <a href="http://127.0.0.1:5000/register">Register here</a>
+        </p>
+    </div>
+</div>
+
+    </div>
+
+</body></html>
