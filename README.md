@@ -2,7 +2,6 @@
 
 A modern, responsive task management application built with **Python Flask**, **SQLite database**, and **Bootstrap CSS**.
 
-[![Demo Screenshot](demo1.png)]()
 
 ## 📱 Demo Instructions
 1. `pip install -r requirements.txt`
